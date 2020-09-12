@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun afterTextChanged(editable: Editable) {
-                clearAndRestart()
+//                clearAndRestart()
                 Log.d(
                     TAG,
                     "Call the method for further processing in real case, here I am clearing the data"
